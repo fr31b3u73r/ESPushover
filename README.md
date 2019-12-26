@@ -11,10 +11,10 @@ Download (via git clone or by downloading the zip from GitHub) the library and i
 ## Usage
 *Please check the samples in the examples folder.*
 
-**Basic usage:**
-Initialize ESPushover: `ESPushover po = ESPushover("SecureAppToken","UserToken");`
-Initialize ESPushoverMessage: `ESPushoverMessage pom = ESPushoverMessage("test");`
-Send Message (will return HTTP status code): `po.send(pom);`
+**Basic usage:**  
+Initialize ESPushover: `ESPushover po = ESPushover("SecureAppToken","UserToken");`  
+Initialize ESPushoverMessage: `ESPushoverMessage pom = ESPushoverMessage("test");`  
+Send Message (will return HTTP status code): `po.send(pom);`  
 
 **Setters for messages:**
 ```
@@ -36,7 +36,7 @@ PRIORITY_QUIET
 PRIORITY_HIGH  
 PRIORITY_CONFIRMATION  
 
-**Pushoversounds (see [Pushover API documentation](https://pushover.net/api#sounds) for samples):  
+**Pushoversounds (see [Pushover API documentation](https://pushover.net/api#sounds) for samples):**  
 SOUND_PUSHOVER (default)  
 SOUND_BIKE  
 SOUND_BUGLE  
