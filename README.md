@@ -29,33 +29,33 @@ setTimestamp(uint32_t); // unix timestamp, if not set, it will be the time the m
 setIsHTML(boolean); // define that the message is HTML formatted
 setSound(Pushoversounds); // sets a custom sound (see possible values below)
 ```
-Pushoverpriorities (see [Pushover API documentation](https://pushover.net/api#priority) for details):
-PRIORITY_NORMAL (default)
-PRIORITY_NONOTIFICATION
-PRIORITY_QUIET
-PRIORITY_HIGH
-PRIORITY_CONFIRMATION
+**Pushoverpriorities (see [Pushover API documentation](https://pushover.net/api#priority) for details):**  
+PRIORITY_NORMAL (default)  
+PRIORITY_NONOTIFICATION  
+PRIORITY_QUIET  
+PRIORITY_HIGH  
+PRIORITY_CONFIRMATION  
 
-Pushoversounds (see [Pushover API documentation(https://pushover.net/api#sounds) for samples]):
-SOUND_PUSHOVER (default)
-SOUND_BIKE
-SOUND_BUGLE
-SOUND_CASHREGISTER
-SOUND_CLASSICAL
-SOUND_COSMIC
-SOUND_FALLING
-SOUND_GAMELAN
-SOUND_INCOMING
-SOUND_INTERMISSION
-SOUND_MAGIC
-SOUND_MECHANICAL
-SOUND_PIANOBAR
-SOUND_SIREN
-SOUND_SPACEALARM
-SOUND_TUGBOAT
-SOUND_ALIEN
-SOUND_CLIMB
-SOUND_PERSISTENT
-SOUND_ECHO
-SOUND_UPDOWN
-SOUND_NONE
+**Pushoversounds (see [Pushover API documentation](https://pushover.net/api#sounds) for samples):  
+SOUND_PUSHOVER (default)  
+SOUND_BIKE  
+SOUND_BUGLE  
+SOUND_CASHREGISTER  
+SOUND_CLASSICAL  
+SOUND_COSMIC  
+SOUND_FALLING  
+SOUND_GAMELAN  
+SOUND_INCOMING  
+SOUND_INTERMISSION  
+SOUND_MAGIC  
+SOUND_MECHANICAL  
+SOUND_PIANOBAR  
+SOUND_SIREN  
+SOUND_SPACEALARM  
+SOUND_TUGBOAT  
+SOUND_ALIEN  
+SOUND_CLIMB  
+SOUND_PERSISTENT  
+SOUND_ECHO  
+SOUND_UPDOWN  
+SOUND_NONE  
